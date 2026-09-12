@@ -1,0 +1,21 @@
+name: MinecraftShop
+version: 1.0.0
+main: com.shop.minecraft.MinecraftShop
+description: Modernes, hochperformantes Shop-Plugin für Paper/Spigot
+author: MinecraftShop
+website: https://github.com/leon231313123/minecraft-shop-plugin
+
+commands:
+  shop:
+    description: Öffne den Shop
+    usage: /shop
+    permission: minecraftshop.use
+    permission-message: Du hast keine Berechtigung für diesen Befehl!
+
+permissions:
+  minecraftshop.use:
+    description: Erlaubt den Zugriff auf /shop
+    default: true
+  minecraftshop.admin:
+    description: Admin-Befehle für den Shop
+    default: op
