@@ -1,0 +1,229 @@
+# MinecraftShop - Konfigurationsdatei
+
+# Vault Economy Settings
+vault:
+  enabled: true
+  currency-symbol: "$"
+
+# Shop-Kategorien und Items
+shop:
+  categories:
+    gear:
+      name: "⚔ Gear Shop"
+      description: "Kaufe starke Items"
+      items:
+        totem_of_undying:
+          material: "TOTEM_OF_UNDYING"
+          display-name: "§6Totem of Undying"
+          lore:
+            - "§7Verhindert deinen Tod"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 400.0
+          amount: 1
+
+        ender_pearl:
+          material: "ENDER_PEARL"
+          display-name: "§6Ender Pearl"
+          lore:
+            - "§7Teleportiere dich schnell fort"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 50.0
+          amount: 1
+
+        golden_apple:
+          material: "GOLDEN_APPLE"
+          display-name: "§6Golden Apple"
+          lore:
+            - "§7Starke Heilung & Buffs"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 150.0
+          amount: 1
+
+        enchanted_golden_apple:
+          material: "ENCHANTED_GOLDEN_APPLE"
+          display-name: "§6Enchanted Golden Apple"
+          lore:
+            - "§7Sehr starke Heilung & lange Buffs"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 500.0
+          amount: 1
+
+        experience_bottle:
+          material: "EXPERIENCE_BOTTLE"
+          display-name: "§6Experience Bottle"
+          lore:
+            - "§7Erhalte Erfahrung"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 100.0
+          amount: 1
+
+        end_crystal:
+          material: "END_CRYSTAL"
+          display-name: "§6End Crystal"
+          lore:
+            - "§7Explosive Macht aus dem End"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 30000.0
+          amount: 1
+
+        respawn_anchor:
+          material: "RESPAWN_ANCHOR"
+          display-name: "§6Respawn Anchor"
+          lore:
+            - "§7Setze deinen Spawn im Nether"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 30000.0
+          amount: 1
+
+        glowstone:
+          material: "GLOWSTONE"
+          display-name: "§6Glowstone"
+          lore:
+            - "§7Kraftvolle Lichtquelle"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 100.0
+          amount: 64
+
+        obsidian:
+          material: "OBSIDIAN"
+          display-name: "§6Obsidian"
+          lore:
+            - "§7Das stärkste Baumaterial"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 100.0
+          amount: 64
+
+        ender_chest:
+          material: "ENDER_CHEST"
+          display-name: "§6Ender Chest"
+          lore:
+            - "§7Persönlicher Lagerspeicher"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 250.0
+          amount: 1
+
+    end:
+      name: "🌌 End Shop"
+      description: "End-Items"
+      items:
+        end_crystal:
+          material: "END_CRYSTAL"
+          display-name: "§6End Crystal"
+          lore:
+            - "§7Explosive Macht"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 30000.0
+          amount: 1
+
+        dragon_egg:
+          material: "DRAGON_EGG"
+          display-name: "§6Dragon Egg"
+          lore:
+            - "§7Das seltenste Item"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 50000.0
+          amount: 1
+
+        shulker_shell:
+          material: "SHULKER_SHELL"
+          display-name: "§6Shulker Shell"
+          lore:
+            - "§7Zum Craften von Shulker Boxen"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 300.0
+          amount: 1
+
+    nether:
+      name: "🔥 Nether Shop"
+      description: "Nether-Items"
+      items:
+        respawn_anchor:
+          material: "RESPAWN_ANCHOR"
+          display-name: "§6Respawn Anchor"
+          lore:
+            - "§7Setze deinen Spawn im Nether"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 30000.0
+          amount: 1
+
+        crying_obsidian:
+          material: "CRYING_OBSIDIAN"
+          display-name: "§6Crying Obsidian"
+          lore:
+            - "§7Magisches dunkles Obsidian"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 500.0
+          amount: 1
+
+        ancient_debris:
+          material: "ANCIENT_DEBRIS"
+          display-name: "§6Ancient Debris"
+          lore:
+            - "§7Zum Smelten von Netherite Scrap"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 2000.0
+          amount: 1
+
+    food:
+      name: "🍗 Food Shop"
+      description: "Essen & Tränke"
+      items:
+        cooked_beef:
+          material: "COOKED_BEEF"
+          display-name: "§6Cooked Beef"
+          lore:
+            - "§7Leckeres Essen"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 10.0
+          amount: 64
+
+        golden_carrot:
+          material: "GOLDEN_CARROT"
+          display-name: "§6Golden Carrot"
+          lore:
+            - "§7Magisches Futter"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 50.0
+          amount: 1
+
+        glow_berries:
+          material: "GLOW_BERRIES"
+          display-name: "§6Glow Berries"
+          lore:
+            - "§7Leuchtende Beeren"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 15.0
+          amount: 64
+
+    shards:
+      name: "💎 Shards & Chat"
+      description: "Spezielle Items"
+      items:
+        amethyst_shard:
+          material: "AMETHYST_SHARD"
+          display-name: "§6Amethyst Shard"
+          lore:
+            - "§7Seltene Ressource"
+            - ""
+            - "§eKlick zum Kaufen"
+          price: 200.0
+          amount: 1
