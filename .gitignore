@@ -1,0 +1,22 @@
+# Maven
+target/
+.m2/
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.class
+
+# Build
+.gradle/
+build/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
